@@ -19,9 +19,7 @@ public class FisheyeEnteryPage {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-	//	String username = "yoeln";
-	//	String password = "Giveme123456789";
-	//	String repositoryName = "new-repo-" + dateFormat1.format(testStartTime);
+	
 		
 		driver.get("https://fisheye.co.il");
 	}
