@@ -1,0 +1,1 @@
+var execution = {"machines":[{"type":"machine","plannedTests":0,"name":"DESKTOP-QRA9R3I","status":"success","children":[{"type":"scenario","scenarioProperties":null,"name":"Default test","status":"success","children":null}]}]};
