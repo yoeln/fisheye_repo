@@ -32,14 +32,7 @@ public abstract class AbstractTestFisheye {
 		driver.get(url);
 
 		FisheyeEnteryPage fisheyeEnteryPage = new FisheyeEnteryPage(driver);
-		//	gitHubLandingPage.clickSignInLink();
-
-		//	GitHubSignInPage gitHubSignInPage = new GitHubSignInPage(driver);
-		//gitHubSignInPage.writeUsername(username);
-		//	gitHubSignInPage.writePassword(password);
-		//		gitHubSignInPage.clickSignInButton();
-
-	//	FisheyeEnteryPage fisheyeEnteryPage = new FisheyeEnteryPage(driver);
+		
 		return fisheyeEnteryPage;
 
 	}
