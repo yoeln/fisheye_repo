@@ -12,10 +12,11 @@ public abstract class AbstractPage {
 	protected ActionBot bot;
 
 	protected ReportDispatcher report = ReportManager.getInstance();
-
+ // get the current page name each time the page is being called
 	public AbstractPage(WebDriver driver) {
 		report.log("*** Current page: " + this.getClass().getSimpleName());
 		this.driver = driver;
 		this.bot = new ActionBot(driver);
 	}
+	
 }

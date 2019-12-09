@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="il.co.fisheye.tests._001_FaildToEnterWithRrgisteredEmailAndNewUserNmeTest">
+      <class name="il.co.fisheye.tests._004_changeUserNameTest">
         <methods>
-          <include name="_001_faildToEnterWithRrgisteredEmailAndNewUserNme"/>
+          <include name="afterClass"/>
+          <include name="_004_changeUserName"/>
+          <include name="faildTest"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- il.co.fisheye.tests._001_FaildToEnterWithRrgisteredEmailAndNewUserNmeTest -->
+      </class> <!-- il.co.fisheye.tests._004_changeUserNameTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

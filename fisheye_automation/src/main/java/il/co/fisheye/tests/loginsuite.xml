@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+	<!-- Run all tests in the specified classes -->
+	<!-- this is suite of all the successful login cases -->
+	<test name="grouping">
+
+
+		<classes>
+			
+			<class name="il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest" />
+			<class name="il.co.fisheye.tests._004_changeUserNameTest" />
+			<class name="il.co.fisheye.tests._005_SystemLogOutTest" />
+
+		</classes>
+	</test>
+
+</suite>
