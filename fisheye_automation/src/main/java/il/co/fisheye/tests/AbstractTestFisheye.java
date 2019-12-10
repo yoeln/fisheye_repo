@@ -38,13 +38,13 @@ public abstract class AbstractTestFisheye {
 	public void beforeMethod() throws Exception {
 
 		DesiredCapabilities dc=DesiredCapabilities.chrome();
-		//dc.setCapability("applicationCacheEnabled", "false"); 
+		
 		dc.setCapability(CapabilityType.SUPPORTS_APPLICATION_CACHE, false);
 		MainConfig.initFromFile("src/main/resources/MainConfig.properties");
 
 	//	if (driver == null) {
 			driver = WebDriverFactory.getDriver(MainConfig.browserType);
-	//	}
+		//}
 	}
 
 	public FisheyeEnteryPage doEntry() {

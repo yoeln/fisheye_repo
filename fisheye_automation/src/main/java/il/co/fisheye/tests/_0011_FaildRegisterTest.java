@@ -17,7 +17,7 @@ public class _0011_FaildRegisterTest extends AbstractTestFisheye  {
 	private String title;
 	private String s1="ERROR";
 
-	@Test
+	@Test(groups = {"Group2"})
 	public void _0011_FaildRegister() throws Exception {
 		initParams();
 

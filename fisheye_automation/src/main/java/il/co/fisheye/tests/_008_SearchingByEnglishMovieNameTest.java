@@ -15,7 +15,7 @@ public class _008_SearchingByEnglishMovieNameTest extends AbstractTestFisheye{
 	private String englishMovieName;
 
 
-	@Test
+	@Test(groups = {"Group1"})
 	public void _008_SearchingByEnglishMovieName() throws Exception {
 
 		initParams3();

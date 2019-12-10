@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite"> 
+
+  <test name="Grouping">
+   <groups>
+	     <run>
+ 		 <include name="Group1" />
+ 		 <exclude name="Group2"  />
+ 	     </run>
+ 	 </groups>
+    <classes>
+      <class name="il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest">
+      </class>
+      <class name="il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest">
+      
+      
+      </class>
+      
+      </classes>>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

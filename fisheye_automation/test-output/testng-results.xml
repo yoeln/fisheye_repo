@@ -1,78 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="60930" started-at="2019-12-09T22:16:35 IST" finished-at="2019-12-09T22:17:36 IST">
+  <suite name="Suite" duration-ms="37032" started-at="2019-12-10T16:50:26 IST" finished-at="2019-12-10T16:51:03 IST">
     <groups>
+      <group name="Group1">
+        <method signature="_007_SearchingByHebrewMovieNameTest._007_SearchingByHebrewMovieName()[pri:0, instance:il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest@33f88ab]" name="_007_SearchingByHebrewMovieName" class="il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest"/>
+        <method signature="_008_SearchingByEnglishMovieNameTest._008_SearchingByEnglishMovieName()[pri:0, instance:il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest@27a8c74e]" name="_008_SearchingByEnglishMovieName" class="il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest"/>
+      </group> <!-- Group1 -->
     </groups>
-    <test name="grouping" duration-ms="60930" started-at="2019-12-09T22:16:35 IST" finished-at="2019-12-09T22:17:36 IST">
-      <class name="il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest@4b1c1ea0]" name="beforeMethod" is-config="true" duration-ms="4332" started-at="2019-12-09T22:16:35 IST" finished-at="2019-12-09T22:16:39 IST">
+    <test name="Grouping" duration-ms="37032" started-at="2019-12-10T16:50:26 IST" finished-at="2019-12-10T16:51:03 IST">
+      <class name="il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest@27a8c74e]" name="beforeMethod" is-config="true" duration-ms="3661" started-at="2019-12-10T16:50:43 IST" finished-at="2019-12-10T16:50:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="_002_logingWitheCorrectUserNameQPassword()[pri:0, instance:il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest@4b1c1ea0]" name="_002_logingWitheCorrectUserNameQPassword" duration-ms="9174" started-at="2019-12-09T22:16:39 IST" finished-at="2019-12-09T22:16:48 IST">
+        <test-method status="PASS" signature="_008_SearchingByEnglishMovieName()[pri:0, instance:il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest@27a8c74e]" name="_008_SearchingByEnglishMovieName" duration-ms="16533" started-at="2019-12-10T16:50:46 IST" finished-at="2019-12-10T16:51:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- _002_logingWitheCorrectUserNameQPassword -->
-        <test-method status="PASS" signature="faildTest(org.testng.ITestResult)[pri:0, instance:il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest@4b1c1ea0]" name="faildTest" is-config="true" duration-ms="2" started-at="2019-12-09T22:16:48 IST" finished-at="2019-12-09T22:16:48 IST">
+        </test-method> <!-- _008_SearchingByEnglishMovieName -->
+        <test-method status="PASS" signature="faildTest(org.testng.ITestResult)[pri:0, instance:il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest@27a8c74e]" name="faildTest" is-config="true" duration-ms="0" started-at="2019-12-10T16:51:03 IST" finished-at="2019-12-10T16:51:03 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=_002_logingWitheCorrectUserNameQPassword status=SUCCESS method=_002_logingWitheCorrectUserNameQPasswordTest._002_logingWitheCorrectUserNameQPassword()[pri:0, instance:il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest@4b1c1ea0] output={null}]]]>
+                <![CDATA[[TestResult name=_008_SearchingByEnglishMovieName status=SUCCESS method=_008_SearchingByEnglishMovieNameTest._008_SearchingByEnglishMovieName()[pri:0, instance:il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest@27a8c74e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faildTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest@4b1c1ea0]" name="afterClass" is-config="true" duration-ms="40" started-at="2019-12-09T22:17:36 IST" finished-at="2019-12-09T22:17:36 IST">
+      </class> <!-- il.co.fisheye.tests._008_SearchingByEnglishMovieNameTest -->
+      <class name="il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest@33f88ab]" name="beforeMethod" is-config="true" duration-ms="5081" started-at="2019-12-10T16:50:26 IST" finished-at="2019-12-10T16:50:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="_007_SearchingByHebrewMovieName()[pri:0, instance:il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest@33f88ab]" name="_007_SearchingByHebrewMovieName" duration-ms="11669" started-at="2019-12-10T16:50:31 IST" finished-at="2019-12-10T16:50:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _007_SearchingByHebrewMovieName -->
+        <test-method status="PASS" signature="faildTest(org.testng.ITestResult)[pri:0, instance:il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest@33f88ab]" name="faildTest" is-config="true" duration-ms="3" started-at="2019-12-10T16:50:43 IST" finished-at="2019-12-10T16:50:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=_007_SearchingByHebrewMovieName status=SUCCESS method=_007_SearchingByHebrewMovieNameTest._007_SearchingByHebrewMovieName()[pri:0, instance:il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest@33f88ab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faildTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest@33f88ab]" name="afterClass" is-config="true" duration-ms="42" started-at="2019-12-10T16:51:03 IST" finished-at="2019-12-10T16:51:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- il.co.fisheye.tests._002_logingWitheCorrectUserNameQPasswordTest -->
-      <class name="il.co.fisheye.tests._004_changeUserNameTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:il.co.fisheye.tests._004_changeUserNameTest@17579e0f]" name="beforeMethod" is-config="true" duration-ms="3642" started-at="2019-12-09T22:16:48 IST" finished-at="2019-12-09T22:16:52 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="_004_changeUserName()[pri:0, instance:il.co.fisheye.tests._004_changeUserNameTest@17579e0f]" name="_004_changeUserName" duration-ms="23685" started-at="2019-12-09T22:16:52 IST" finished-at="2019-12-09T22:17:16 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- _004_changeUserName -->
-        <test-method status="PASS" signature="faildTest(org.testng.ITestResult)[pri:0, instance:il.co.fisheye.tests._004_changeUserNameTest@17579e0f]" name="faildTest" is-config="true" duration-ms="1" started-at="2019-12-09T22:17:16 IST" finished-at="2019-12-09T22:17:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=_004_changeUserName status=SUCCESS method=_004_changeUserNameTest._004_changeUserName()[pri:0, instance:il.co.fisheye.tests._004_changeUserNameTest@17579e0f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- faildTest -->
-      </class> <!-- il.co.fisheye.tests._004_changeUserNameTest -->
-      <class name="il.co.fisheye.tests._005_SystemLogOutTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:il.co.fisheye.tests._005_SystemLogOutTest@4d41cee]" name="beforeMethod" is-config="true" duration-ms="3682" started-at="2019-12-09T22:17:16 IST" finished-at="2019-12-09T22:17:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="_005_SystemLogOut()[pri:0, instance:il.co.fisheye.tests._005_SystemLogOutTest@4d41cee]" name="_005_SystemLogOut" duration-ms="16312" started-at="2019-12-09T22:17:19 IST" finished-at="2019-12-09T22:17:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- _005_SystemLogOut -->
-        <test-method status="PASS" signature="faildTest(org.testng.ITestResult)[pri:0, instance:il.co.fisheye.tests._005_SystemLogOutTest@4d41cee]" name="faildTest" is-config="true" duration-ms="0" started-at="2019-12-09T22:17:36 IST" finished-at="2019-12-09T22:17:36 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=_005_SystemLogOut status=SUCCESS method=_005_SystemLogOutTest._005_SystemLogOut()[pri:0, instance:il.co.fisheye.tests._005_SystemLogOutTest@4d41cee] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- faildTest -->
-      </class> <!-- il.co.fisheye.tests._005_SystemLogOutTest -->
-    </test> <!-- grouping -->
-  </suite> <!-- Suite1 -->
+      </class> <!-- il.co.fisheye.tests._007_SearchingByHebrewMovieNameTest -->
+    </test> <!-- Grouping -->
+  </suite> <!-- Suite -->
 </testng-results>

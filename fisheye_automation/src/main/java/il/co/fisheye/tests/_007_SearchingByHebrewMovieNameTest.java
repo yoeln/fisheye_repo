@@ -17,7 +17,7 @@ public class _007_SearchingByHebrewMovieNameTest extends AbstractTestFisheye {
 
 	private String movieName;
 
-	@Test
+	@Test(groups = {"Group1"})
 	public void _007_SearchingByHebrewMovieName() throws Exception {
 
 		initParams();
