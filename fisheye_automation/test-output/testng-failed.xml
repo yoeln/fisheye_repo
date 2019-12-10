@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="grouping(failed)">
     <classes>
       <class name="il.co.fisheye.tests._004_changeUserNameTest">
         <methods>
@@ -11,6 +11,14 @@
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- il.co.fisheye.tests._004_changeUserNameTest -->
+      <class name="il.co.fisheye.tests._005_SystemLogOutTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="_005_SystemLogOut"/>
+          <include name="faildTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- il.co.fisheye.tests._005_SystemLogOutTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- grouping(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

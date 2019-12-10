@@ -3,6 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
   <test thread-count="5" name="grouping(failed)">
     <classes>
+      <class name="il.co.fisheye.tests._004_changeUserNameTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="_004_changeUserName"/>
+          <include name="faildTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- il.co.fisheye.tests._004_changeUserNameTest -->
       <class name="il.co.fisheye.tests._005_SystemLogOutTest">
         <methods>
           <include name="afterClass"/>
